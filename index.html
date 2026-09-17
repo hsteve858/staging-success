@@ -19,6 +19,7 @@
     --muted: #A99A82;
     --rule: #3A2F26;
     --max: 740px;
+    --desc: #D3C6AC;
   }
 
   *{ box-sizing: border-box; }
@@ -185,23 +186,24 @@
     color: var(--ink);
   }
 
-  .course-status{
-    display: inline-block;
-    font-size: 0.85rem;
-    color: var(--velvet);
-    border: 1px solid var(--velvet);
-    border-radius: 2px;
-    padding: 1px 8px;
-    margin-left: 10px;
-    vertical-align: middle;
-    font-style: italic;
-  }
+ .course-status{
+   display: inline-block;
+   font-size: 0.85rem;
+   color: var(--ink);
+   background: var(--velvet);
+   border: 1px solid var(--velvet);
+   border-radius: 2px;
+   padding: 1px 8px;
+   margin-left: 10px;
+   vertical-align: middle;
+   font-style: italic;
+}
 
-  .course-desc{
-    color: var(--muted);
-    margin: 0 0 10px;
-    max-width: 66ch;
-  }
+ .course-desc{
+   color: var(--desc);
+   margin: 0 0 10px;
+   max-width: 66ch;
+}
 
   .course-link{
     font-size: 0.95rem;
